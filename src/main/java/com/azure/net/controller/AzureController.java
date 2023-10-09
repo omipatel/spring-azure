@@ -12,7 +12,7 @@ public class AzureController {
 	    @GetMapping("/message")
 	    public String getMessage() {
 	    	 
-	    	return "Spring Boot Deployee inAzure";
+	    	return "Spring Boot Deployee in Azure  i am done";
 	    }
 	
 	
