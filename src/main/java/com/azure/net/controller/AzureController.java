@@ -12,7 +12,12 @@ public class AzureController {
 	    @GetMapping("/message")
 	    public String getMessage() {
 	    	 
-	    	return "Spring Boot Deployee in Azure  i am done";
+	    	return "Spring Boot Deployee in Azure, i am developer";
+	    }
+	    @GetMapping("/sms")
+	    public String getSMS() {
+	    	 
+	    	return "Try to understand the flow ";
 	    }
 	
 	
